@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2</title>
+    <style>
+        body {
+  gap: 100px;
+  display: grid;
+  grid-template-columns: repeat(2, 150px);
+  margin-top: 30px;
+  margin-left: 30px;
+}
+        div{
+            width: 300px;
+            height: 200px;
+            justify-content: center;
+            border-radius: 6px;
+        }
+        .box1{
+        background-color: green;
+        margin-left: 60px;
+        width: 100px;
+        height: 100px;
+        transition:transform;
+        transform: rotatez(20deg);
+        transition-delay: 3s;
+        transition-duration: 4s;
+        border-radius: 5px;
+        color: white;
+    
+        }
+        .box2{
+            color: white;
+        background-color: green;
+        margin-left: 60px;
+        width: 100px;
+        height: 100px;
+        transition:transform;
+        transform: rotatez(-20deg);
+        transition-delay: 3s;
+        transition-duration: 4s;
+        border-radius: 5px;
+        }
+        
+
+    </style>
+</head>
+<body>
+    <div class="box1" >box1</div>
+    <div class="box2">box2</div>
+</body>
+</html>

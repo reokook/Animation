@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>10</title>
+    <style>
+        .one{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 500px;
+        }
+        .two{
+            border: 8px solid black;
+            height: 100px;
+            width: 100px;
+
+        }
+        .three{
+            background-color:greenyellow ;
+            width:100px;
+            height: 100px;
+            animation: 4s load linear;
+        }
+        .four{
+            background-color: black;
+            width: 20px;
+            height: 60px;
+
+        }
+
+        @keyframes load{
+            0%{
+        width: 0px;
+        background-color: red;
+    }
+    30%{
+        background-color: orange;
+    }
+    90%{
+        background-color: greenyellow;
+    }
+        }
+    </style>
+</head>
+<body>
+    <div class="one">
+        <div class="two">
+            <div class="three"></div>
+        </div>
+<div class="four"></div>
+    </div>
+</body>
+</html>
